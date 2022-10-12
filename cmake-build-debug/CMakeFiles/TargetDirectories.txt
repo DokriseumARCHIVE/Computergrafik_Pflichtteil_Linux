@@ -1,0 +1,3 @@
+/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/cmake-build-debug/CMakeFiles/CG.dir
+/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/cmake-build-debug/CMakeFiles/rebuild_cache.dir

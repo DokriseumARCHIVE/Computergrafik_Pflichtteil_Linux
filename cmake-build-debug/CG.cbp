@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CG"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\usr\lib\cmake\glm\;CMake Files\ogl\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dustin/.projects/CLionProjects/CGTutorial\ -\ Minimal/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dustin/.projects/CLionProjects/CGTutorial\ -\ Minimal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dustin/.projects/CLionProjects/CGTutorial\ -\ Minimal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dustin/.projects/CLionProjects/CGTutorial\ -\ Minimal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CG">
+				<Option output="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/cmake-build-debug/CG" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/ogl/external/glew-1.13.0"/>
+					<Add directory="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/ogl/external/glfw-3.1.2"/>
+					<Add directory="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/ogl/external/glm-0.9.4.0"/>
+					<Add directory="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/."/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dustin/.projects/CLionProjects/CGTutorial\ -\ Minimal/cmake-build-debug/Makefile&quot;  VERBOSE=1 CG"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dustin/.projects/CLionProjects/CGTutorial\ -\ Minimal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dustin/.projects/CLionProjects/CGTutorial\ -\ Minimal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dustin/.projects/CLionProjects/CGTutorial\ -\ Minimal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CG/fast">
+				<Option output="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/cmake-build-debug/CG" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/ogl/external/glew-1.13.0"/>
+					<Add directory="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/ogl/external/glfw-3.1.2"/>
+					<Add directory="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/ogl/external/glm-0.9.4.0"/>
+					<Add directory="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/."/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dustin/.projects/CLionProjects/CGTutorial\ -\ Minimal/cmake-build-debug/Makefile&quot;  VERBOSE=1 CG/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dustin/.projects/CLionProjects/CGTutorial\ -\ Minimal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dustin/.projects/CLionProjects/CGTutorial\ -\ Minimal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dustin/.projects/CLionProjects/CGTutorial\ -\ Minimal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dustin/.projects/CLionProjects/CGTutorial\ -\ Minimal/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dustin/.projects/CLionProjects/CGTutorial\ -\ Minimal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dustin/.projects/CLionProjects/CGTutorial\ -\ Minimal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dustin/.projects/CLionProjects/CGTutorial\ -\ Minimal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dustin/.projects/CLionProjects/CGTutorial\ -\ Minimal/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dustin/.projects/CLionProjects/CGTutorial\ -\ Minimal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dustin/.projects/CLionProjects/CGTutorial\ -\ Minimal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dustin/.projects/CLionProjects/CGTutorial\ -\ Minimal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/ogl/CGTutorial.cpp">
+			<Option target="CG"/>
+		</Unit>
+		<Unit filename="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/ogl/objects.cpp">
+			<Option target="CG"/>
+		</Unit>
+		<Unit filename="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/ogl/objects.hpp">
+			<Option target="CG"/>
+		</Unit>
+		<Unit filename="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/ogl/shader.cpp">
+			<Option target="CG"/>
+		</Unit>
+		<Unit filename="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/ogl/shader.hpp">
+			<Option target="CG"/>
+		</Unit>
+		<Unit filename="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/../../../../../usr/lib/cmake/glm/glmConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\glm\"/>
+		</Unit>
+		<Unit filename="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/../../../../../usr/lib/cmake/glm/glmConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\glm\"/>
+		</Unit>
+		<Unit filename="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/ogl/ColorFragmentShader.fragmentshader">
+			<Option virtualFolder="CMake Files\ogl\"/>
+		</Unit>
+		<Unit filename="/home/dustin/.projects/CLionProjects/CGTutorial - Minimal/ogl/TransformVertexShader.vertexshader">
+			<Option virtualFolder="CMake Files\ogl\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

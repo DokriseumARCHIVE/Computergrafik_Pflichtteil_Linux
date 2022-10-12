@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/CG.dir/ogl/objects.cpp.o CMakeFiles/CG.dir/ogl/shader.cpp.o CMakeFiles/CG.dir/ogl/CGTutorial.cpp.o -o CG  /usr/lib/x86_64-linux-gnu/libOpenGL.so /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libGLU.so -lglfw -lGLEW -lglm 
